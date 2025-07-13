@@ -4,12 +4,12 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TRC ELENIA',
+  title: 'TRC ElenIA',
   tagline: 'API AI',
   favicon: 'img/favicon.ico',
   url: 'https://docs.trcelenia.com',
   baseUrl: '/',
-  organizationName: 'facebook',
+  organizationName: 'TRC Recruitme',
   projectName: 'TRC',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -62,18 +62,12 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'TRC',
+        title: '',
         logo: {
           alt: 'API',
-          src: 'img/logo.svg',
+          src: 'img/logo-white.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {
             type: 'docSidebar',
             sidebarId: 'modulesSidebar',
@@ -91,8 +85,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'CRM',
+                to: '/modules/CRM/intro',
               },
             ],
           },
@@ -105,7 +99,7 @@ const config = {
             items: [],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} TRC ELENIA.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TRC Recruitme.`,
       },
       prism: {
         theme: prismThemes.github,
