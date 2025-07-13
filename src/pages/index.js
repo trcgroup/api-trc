@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            welcome to docs
+            to="/modules/CRM/intro">
+            Documentación
           </Link>
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Documentación de la plataforma TRC ElenIA">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
