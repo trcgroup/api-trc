@@ -1,3 +1,8 @@
+---
+sidebar_position: 2.3
+---
+
+
 # 🗑️ Eliminar Contacto
 
 El CRM permite eliminar contactos asociados a cada lead de forma rápida y segura desde la vista de detalle del lead.

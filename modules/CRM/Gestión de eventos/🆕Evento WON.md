@@ -1,3 +1,8 @@
+---
+sidebar_position: 3.4
+---
+
+
 ## 🏆 Evento "Won Deal"
 
 El evento **Won Deal** se utiliza para registrar cuando una oportunidad comercial ha sido ganada o concretada exitosamente.

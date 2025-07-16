@@ -1,3 +1,8 @@
+---
+sidebar_position: 1.3
+---
+
+
 # 🗂️ Detalle de Lead
 
 La vista de **Detalle de Lead** permite acceder a toda la información específica de un lead registrado en el CRM.
