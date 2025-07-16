@@ -1,3 +1,8 @@
+---
+sidebar_position: 3.2
+---
+
+
 # ✏️ Editar Evento
 
 El módulo CRM permite editar los eventos registrados en un lead, facilitando la actualización de información o corrección de datos en las actividades registradas.
