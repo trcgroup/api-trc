@@ -1,3 +1,8 @@
+---
+sidebar_position: 3.3
+---
+
+
 # 🗑️ Eliminar Evento
 El CRM permite eliminar eventos asociados a un lead desde la pestaña de eventos, facilitando la corrección o limpieza del historial de actividades.
 

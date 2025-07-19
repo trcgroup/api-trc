@@ -1,3 +1,8 @@
+---
+sidebar_position: 1.1
+---
+
+
 # ➕ Crear Nuevo Lead
 
 El módulo CRM permite crear nuevos leads de forma manual mediante un formulario accesible desde la interfaz principal.

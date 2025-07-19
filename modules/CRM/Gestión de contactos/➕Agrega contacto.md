@@ -1,3 +1,8 @@
+---
+sidebar_position: 2.1
+---
+
+
 # ➕ Agregar Contacto
 
 El módulo CRM permite asociar contactos específicos a cada lead mediante un formulario detallado, facilitando la gestión de relaciones clave.

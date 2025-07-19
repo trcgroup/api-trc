@@ -1,3 +1,8 @@
+---
+sidebar_position: 1.5
+---
+
+
 # 🗑️ Eliminar Lead
 
 El CRM permite eliminar leads directamente desde el **CRM Dashboard** mediante una acción rápida, diseñada para facilitar la limpieza de registros.
