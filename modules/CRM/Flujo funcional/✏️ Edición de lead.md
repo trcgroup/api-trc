@@ -1,3 +1,8 @@
+---
+sidebar_position: 1.4
+---
+
+
 # ✏️ Editar Lead
 
 El CRM permite editar la información de los leads registrados, facilitando la actualización de datos cuando sea necesario.

@@ -1,4 +1,9 @@
-# 📘 Introducción al Módulo CRM
+---
+sidebar_position: 0.0
+---
+
+
+# 📘 Introducción
 
 El **Módulo CRM (Customer Relationship Management)** es una herramienta central dentro de la plataforma que permite gestionar de manera eficiente los leads, contactos y eventos comerciales.
 

@@ -1,3 +1,8 @@
+---
+sidebar_position: 3.1
+---
+
+
 # 📅 Crear Nuevo Evento
 
 El módulo CRM permite registrar eventos específicos relacionados con un lead, facilitando el seguimiento de actividades y compromisos comerciales.

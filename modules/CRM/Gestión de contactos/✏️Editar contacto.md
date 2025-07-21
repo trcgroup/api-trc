@@ -1,3 +1,8 @@
+---
+sidebar_position: 2.2
+---
+
+
 # ✏️ Editar Contacto
 
 El CRM permite editar los contactos asociados a cada lead, facilitando la actualización de datos cuando sea necesario.
