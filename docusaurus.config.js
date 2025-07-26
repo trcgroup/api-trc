@@ -55,7 +55,18 @@ const config = {
         sidebarPath: require.resolve('./sidebarsModules.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'webpage',
+        path: 'WebPage',
+        routeBasePath: 'webpage',
+        sidebarPath: require.resolve('./sidebarsWebpage.js'),
+      },
+    ],
   ],
+
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -74,6 +85,14 @@ const config = {
             docsPluginId: 'modules',
             position: 'left',
             label: 'Modulos',
+          }
+          ,
+          {
+            type: 'docSidebar',
+            sidebarId: 'WebPageSidebar',
+            docsPluginId: 'webpage',
+            position: 'left',
+            label: 'WebPage',
           }
 
         ],

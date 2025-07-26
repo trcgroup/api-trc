@@ -2,7 +2,6 @@
 id: 4_acciones
 title: 🛠️ Acciones del Módulo Jobs
 sidebar_label: Acciones
-description: Acciones disponibles en el módulo Jobs: crear, editar, eliminar, y comportamiento de formularios.
 sidebar_position: 4
 ---
 
