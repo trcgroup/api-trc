@@ -16,6 +16,12 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
 
 ### ➕ Crear Lead  
 - **Ubicación:** Botón **Create New Lead** (esquina superior derecha).  
+---
+
+<p align="center">
+  <img src="/img/CRM/LEAD/Crear_Lead/BT-NewLead.png" alt="alt text" />
+</p>
+---
 - **Formulario:**  
   - **Obligatorios:**  
     - Company Name  
@@ -31,6 +37,13 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
   - **Validaciones en línea:**  
     - Formato de correo válido (`user@dominio.com`).  
     - No duplicar **Company Email**.  
+---
+<p align="center">
+  <img src="/img/CRM/LEAD/Crear_Lead/Form-NewLead.png" alt="alt text" />
+</p>
+
+---
+
 - **Al guardar:**  
   - Nuevo Lead aparece en la tabla con estado `NEW`.  
   - Se registra un evento interno **Lead Created**.  
@@ -40,12 +53,25 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
 
 ### ✏️ Editar Lead  
 - **Ubicación:** Ícono ✏️ en la columna **Actions** de cada fila.  
+
+---
+<p align="center">
+  <img src="/img/CRM/LEAD/Edit_Lead/BT_EditLead.png" alt="alt text" />
+</p>
+---
+
 - **Formulario:** Igual al de creación, precargado con valores actuales.  
 - **Validaciones:** Mismas reglas que al crear.  
 - **Al guardar:** Actualiza los datos en la tabla y deja un log de edición con usuario y fecha.
 
 ### 🗑️ Eliminar Lead  
 - **Ubicación:** Ícono 🗑️ en la columna **Actions**, solo si **no** existen eventos asociados.  
+---
+<p align="center">
+  <img src="/img/CRM/LEAD/Delete_lead/BT-DeleteLead.png" alt="alt text" />
+</p>
+---
+
 - **Confirmación:** Modal con mensaje de advertencia.  
 - **Irreversibilidad:** La eliminación es permanente y borra todos los datos maestros del lead.
 
@@ -66,6 +92,12 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
 
 ### ➕ Crear Contacto  
 - **Ubicación:** Botón **+ New Contact** en la pestaña **Contacts** del detalle de Lead.  
+---
+<p align="center">
+  <img src="/img/CRM/CONTACT/add/BT-NewContact.png" alt="alt text" />
+</p>
+---
+
 - **Formulario de Contacto:**  
   | Campo            | Obligatorio | Descripción                         |
   |------------------|:-----------:|-------------------------------------|
@@ -78,6 +110,12 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
   | Mobile           | ❌ No        | Móvil personal.                     |
   | LinkedIn URL     | ❌ No        | Perfil de LinkedIn.                 |
   | Comments/Notes   | ❌ No        | Notas adicionales.                  |
+---
+<p align="center">
+  <img src="/img/CRM/CONTACT/add/form-Contact.png" alt="alt text" />
+</p>
+---
+
 - **Automatismo:** Al guardar, crea un evento **Commercial Contact** en **Events**.  
 - :::tip  
   El modal valida **Email** y **Position** antes de habilitar **Create**.  
@@ -85,11 +123,23 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
 
 ### ✏️ Editar Contacto  
 - **Ubicación:** Menú de tres puntos (`…`) en cada fila de contacto.  
+---
+<p align="center">
+  <img src="/img/CRM/CONTACT/edit/BT-editContact.png" alt="alt text" />
+</p>
+---
+
 - **Formulario:** Igual al de creación, precargado.  
 - **Al guardar:** Actualiza la información y registra un log de edición.
 
 ### 🗑️ Eliminar Contacto  
-- **Ubicación:** Misma del editar, opción **Delete**.  
+- **Ubicación:** Misma del editar, opción **Delete**.
+---
+<p align="center">
+  <img src="/img/CRM/CONTACT/delete/BT-deleteContact.png" alt="alt text" />
+</p>
+---
+
 - **Confirmación:** Modal de advertencia.  
 - **Efecto:** El contacto desaparece de la lista, pero sus eventos previos permanecen.
 
@@ -98,7 +148,13 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
 ## 3. Acciones sobre **Events**
 
 ### ➕ Crear Evento  
-- **Ubicación:** Botón **+ New Event** en la pestaña **Events**.  
+- **Ubicación:** Botón **+ New Event** en la pestaña **Events**. 
+---
+<p align="center">
+  <img src="/img/CRM/EVENT/add/BT-event.png" alt="alt text" />
+</p>
+---
+
 - **Formulario de Evento:**  
   | Campo        | Obligatorio | Descripción                                 |
   |--------------|:-----------:|---------------------------------------------|
@@ -106,6 +162,12 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
   | Contact      | ✅ Sí        | Contacto asociado al evento.                |
   | Description  | ❌ No        | Detalles adicionales o notas.               |
   | Documents    | ❌ No        | Archivos adjuntos (PDF, DOCX, imágenes…).   |
+---
+<p align="center">
+  <img src="/img/CRM/EVENT/add/Form-event.png" alt="alt text" />
+</p>
+---
+
 - **Tipos de Evento:**  
   - **Meeting:** Reuniones presenciales/virtuales.  
   - **Proposal Sent:** Propuestas comerciales enviadas.  
@@ -124,11 +186,23 @@ Este apartado recopila **todas** las acciones que un usuario puede realizar en e
 
 ### ✏️ Editar Evento  
 - **Ubicación:** Menú `…` junto a cada evento.  
+---
+<p align="center">
+  <img src="/img/CRM/EVENT/edit/edit-event.png" alt="alt text" />
+</p>
+---
+
 - **Formulario:** Precargado con datos actuales.  
 - **Al guardar:** Actualiza el historial y registra log de edición.
 
 ### 🗑️ Eliminar Evento  
 - **Ubicación:** Misma del editar, opción **Delete**.  
+---
+<p align="center">
+  <img src="/img/CRM/EVENT/delete/delete-event_.png" alt="alt text" />
+</p>
+---
+
 - **Confirmación:** Modal de advertencia.  
 - **Irreversibilidad:** Borra permanentemente el evento y sus adjuntos.
 
@@ -169,6 +243,11 @@ En el campo **Position/Title** de Contacts, puedes seleccionar o personalizar:
   > _No companies found_
 
 ---
+<p align="center">
+  <img src="/img/CRM/FILTRO/Filtro_Lead.png" alt="alt text" />
+</p>
+---
+
 
 ## 6. Comportamientos Comunes de Formularios
 
